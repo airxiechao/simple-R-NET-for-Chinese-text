@@ -3,7 +3,7 @@ simple R-NET for Chinese text
 
 数据：
 
-paragraph.json：形如[{"paragraph":"段落文字", "qas":[{"question":"问题", "start": 答案起始位置, "end": 答案结束为止}]}]
+paragraph.json：形如[{"paragraph":"段落文字", "qas":[{"question":"问题", "start": 答案起始位置, "end": 答案结束位置}]}]
 
 wiki.zh.vec：https://fasttext.cc/docs/en/pretrained-vectors.html 中文向量字典
 
