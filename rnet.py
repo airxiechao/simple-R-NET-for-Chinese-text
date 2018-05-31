@@ -83,7 +83,7 @@ class R_NET:
                 qp_match_output, qp_match_state = qp_match_cell(u_tP_c_t_star, qp_match_state)
                 v_P.append(qp_match_output)
                 
-        v_P = tf.stack(v_P, 1) # [batch_size, state_size]
+        v_P = tf.stack(v_P, 1) # [batch_size, p_length, state_size]
         
         # self-match
         SM_star = []
