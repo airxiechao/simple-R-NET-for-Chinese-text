@@ -4,9 +4,9 @@
 准备数据
 ---
 
-paragraph.json：问答数据，格式为```[{"paragraph":"段落文字", "qas":[{"question":"问题", "start": 答案起始位置, "end": 答案结束位置}]}]```
+* paragraph.json：问答数据，格式为```[{"paragraph":"段落文字", "qas":[{"question":"问题", "start": 答案起始位置, "end": 答案结束位置}]}]```
 
-wiki.zh.vec：中文向量字典（https://fasttext.cc/docs/en/pretrained-vectors.html )，下载到代码目录
+* wiki.zh.vec：中文向量字典（https://fasttext.cc/docs/en/pretrained-vectors.html )，下载到代码目录
 
 训练和测试
 ---
